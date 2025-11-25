@@ -131,6 +131,10 @@ body {
   padding: 8rem 0 0 0;
   margin: 0;
   z-index: 1;
+  transform: translateZ(0); /* Force Safari to create new layer */
+  -webkit-transform: translateZ(0); /* Safari specific */
+  -webkit-backface-visibility: hidden; /* Safari fix */
+  backface-visibility: hidden;
 }
 
 .hero-container {
@@ -262,12 +266,13 @@ body {
   display: none;
 }
 
-/* Section Styling */
 .section {
   padding: 8rem 0;
   position: relative;
   z-index: 10;
   background: var(--cream);
+  transform: translateZ(0); /* Force Safari to create new layer */
+  -webkit-transform: translateZ(0); /* Safari specific */
 }
 
 .section:nth-child(even) {
@@ -276,10 +281,14 @@ body {
 
 .beaviewed-section,
 .speaking-section,
+.tools-section {
+  background: var(--cream) !important;
+}
+
+.about-section,
 .experience-section,
-.contact-section {
-  z-index: 10;
-  position: relative;
+.community-section .contact-section {
+  background: var(--white) !important;
 }
 
 .container {

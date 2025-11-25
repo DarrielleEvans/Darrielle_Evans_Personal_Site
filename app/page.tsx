@@ -399,6 +399,28 @@ export default function Home() {
             I actively show up in the tech and founder ecosystem through
             programs, conferences, and communities that invest in builders.
           </p>
+          {/* Ongoing */}
+          <div className="timeline-item">
+            <div className="timeline-year">Ongoing</div>
+            <div className="timeline-content">
+              <h4>AfroTech Founder Circle</h4>
+              <p>
+                Member of AfroTech’s founder community, building Bea’Viewed in
+                public.
+              </p>
+            </div>
+          </div>
+
+          <div className="timeline-item">
+            <div className="timeline-year">Ongoing</div>
+            <div className="timeline-content">
+              <h4>ClickUp Verified Community</h4>
+              <p>
+                ClickUp power user and verified community member, sharing
+                systems and workflows.
+              </p>
+            </div>
+          </div>
 
           <div className="timeline">
             {/* 2025 */}
@@ -444,29 +466,6 @@ export default function Home() {
                 <p>
                   Earned a free RenderATL 2023 ticket through Brilliant Black
                   Minds.
-                </p>
-              </div>
-            </div>
-
-            {/* Ongoing */}
-            <div className="timeline-item">
-              <div className="timeline-year">Ongoing</div>
-              <div className="timeline-content">
-                <h4>AfroTech Founder Circle</h4>
-                <p>
-                  Member of AfroTech’s founder community, building Bea’Viewed in
-                  public.
-                </p>
-              </div>
-            </div>
-
-            <div className="timeline-item">
-              <div className="timeline-year">Ongoing</div>
-              <div className="timeline-content">
-                <h4>ClickUp Verified Community</h4>
-                <p>
-                  ClickUp power user and verified community member, sharing
-                  systems and workflows.
                 </p>
               </div>
             </div>
@@ -561,7 +560,7 @@ export default function Home() {
       <footer className="footer">
         <div className="container">
           <div className="footer-content">
-            <p>&copy; 2024 Darrielle Evans. All rights reserved.</p>
+            <p>&copy; 2025 Darrielle Evans. All rights reserved.</p>
             <p className="footer-tagline">
               Building in public. Building with purpose.
             </p>
