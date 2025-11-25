@@ -165,7 +165,7 @@ export default function Home() {
             </div>
             <div className="hero-image">
               <Image
-                src="/canva4.svg"
+                src="/Canva4.svg"
                 alt="Darrielle Evans"
                 width={600}
                 height={800}
